@@ -8,8 +8,14 @@ h3{
     font-family: 'Dancing Script', cursive;
     
 }
+#home{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
 body{
     overflow-x: hidden;
+    background: gray;
 }
 
 .carousel-item img{
@@ -32,9 +38,19 @@ body{
 .img2 img{
     height: 65vh;
     margin-right: 70px;
-    
-    
-    
-    
-    
+   
 }
+#contact{
+    max-width: 100%;
+}
+.footer{
+    width: 100%;
+}
+ @media (max-width: 375px) {
+    .carousel-item img{
+        height:60vh
+    }
+    .img2 img{
+        margin-right: 25px;
+    }
+ }
